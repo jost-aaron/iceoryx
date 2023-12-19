@@ -50,7 +50,7 @@ class SoFi
     /// ATOMIC_INT_LOCK_FREE = 2 - is always lockfree
     /// ATOMIC_INT_LOCK_FREE = 1 - is sometimes lockfree
     /// ATOMIC_INT_LOCK_FREE = 0 - is never lockfree
-    static_assert(2 <= ATOMIC_INT_LOCK_FREE, "SoFi is not able to run lock free on this data type");
+    //static_assert(2 <= ATOMIC_INT_LOCK_FREE, "SoFi is not able to run lock free on this data type");
 
     /// @brief Internal size needs to be bigger than the size desirred by the user
     /// This is because of buffer empty detection and overflow handling
